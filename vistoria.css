@@ -1,0 +1,174 @@
+body{
+    background-color: #e4e4e4;
+    margin: 0;
+}
+
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+    margin-top: -5px;
+    text-align: center;
+    background-color: #ffffffea;
+    padding: 20px 0px;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background-color: #0077ff77;
+    padding: 10px 20px;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+}
+
+li a:hover{
+    background-color: #004594;
+    color:  white;
+}
+
+header{
+    background-image: url(Imagens/vistoria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    margin-top: 0px;
+}
+
+nav h1{
+    text-align: center;
+    background-color: #148ef1;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 370px;
+    border-bottom: 5px solid #2242d3;
+
+}
+
+section{
+    width: 1000px;
+    margin: 0px 300px;
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img.allianz{
+    margin-left: -280px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 213px 50px;
+}
+
+img.hdi{
+    margin-left: -280px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 198px 68px;
+    width: 740px;
+    height: 195px;
+}
+
+img.porto{
+    margin-left: -280px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 198px 42px;
+    width: 740px;
+    height: 195px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    background-color: #cccccc86;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+h3{
+    display: inline-block;
+    background-color: #e4e4e4;
+    padding: 10px 30px;
+    font-family: monospace;
+}
+
+h4{
+    text-align: right;
+    margin-top: 60px;
+}
+
+h4 a{
+    color: black;
+    font-family: monospace;
+    text-decoration: none;
+    background-color: #69696954;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.allianz h4 a:hover{
+    background-color: #0044ff38;
+    color: black;
+}
+
+.hdi h4 a:hover{
+    background-color: #00800036;
+    color: black;
+}
+
+.porto h4 a:hover{
+    background-color: #00a2ff2f;
+    color: black;
+}
+
+p{
+    font-family: monospace;
+}
+
+.allianz h2,.allianz h3{
+    border-bottom: 3px solid blue;
+}
+
+.hdi h2,.hdi h3{
+    border-bottom: 3px solid green;
+}
+
+.porto h2,.porto h3{
+    border-bottom: 3px solid #00a2ff;
+}
+
+footer{
+    background-color: #004594a8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 1px black;
+}
